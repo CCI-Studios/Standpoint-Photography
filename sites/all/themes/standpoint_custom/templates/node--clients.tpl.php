@@ -1,0 +1,1 @@
+<?php print views_embed_view('client_node', 'page', $node->nid); ?>

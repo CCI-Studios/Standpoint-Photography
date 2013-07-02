@@ -1,0 +1,24 @@
+name = Standpoint Photography custom theme
+description = 
+version = 1.0
+core = 7.x
+engine = phptemplate
+
+scripts[] = js/youtube.js
+scripts[] = js/header-bg.js
+scripts[] = js/home-image-colorbox.js
+scripts[] = js/mobile-nav.js
+scripts[] = js/home-images-wrap.js
+
+stylesheets[all][] = stylesheets/screen.css
+
+regions[header] = Header
+regions[header_bg] = Header Background
+regions[nav_menu] = Main navigation menu
+regions[widgets] = Widgets
+regions[help] = Help
+
+regions[content] = Content
+
+regions[footer] = Footer
+regions[footer_bottom] = Footer bottom

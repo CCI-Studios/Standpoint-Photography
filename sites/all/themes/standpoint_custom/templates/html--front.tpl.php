@@ -51,7 +51,7 @@
   <?php print $head; ?>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
   <meta name="viewport" content="width=475" />
-  <title><?php print $head_title; ?></title>
+  <title>Home - <?php print $head_title_array['name']; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>

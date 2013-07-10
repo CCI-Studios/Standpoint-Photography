@@ -280,6 +280,11 @@ a:hover
 	background:url(../images/projects-icon.png) no-repeat left top;
 }
 
+.views-field-field-youtube-video
+{
+	position:relative;
+}
+
 .views-field-field-youtube-video ul
 {
 	height:220px;
@@ -451,6 +456,11 @@ h1#page-title:after
 {
 	padding:16px 0;
 	overflow:hidden;
+}
+
+.view-song-of-the-week.view-display-id-page .play.youtube
+{
+	height:220px;
 }
 
 .view-portfolio.view-display-id-page ul
@@ -694,6 +704,7 @@ h1#page-title:after
 {
 	font-size:0;
 	color:transparent;
+	clear:left;
 }
 
 .view-client-node.view-display-id-page .views-field-field-image a
@@ -701,6 +712,7 @@ h1#page-title:after
 	display:block;
 	float:left;
 	margin-right:10px;
+	margin-bottom:10px;
 	border:2px solid white;
 }
 

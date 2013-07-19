@@ -686,12 +686,12 @@ h1#page-title:after
 	display:none;
 }
 
-.view-client-node.view-display-id-page .views-field-field-youtube-video ul 
+.view-client-node .views-field-field-youtube-video ul 
 {
 	list-style:none;
 }
 
-.view-client-node.view-display-id-page .views-field-field-youtube-video ul li 
+.view-client-node .views-field-field-youtube-video ul li 
 {
 	list-style:none;
 	float:left;
@@ -700,14 +700,14 @@ h1#page-title:after
 	height:220px;
 }
 
-.view-client-node.view-display-id-page .views-field-field-image
+.view-client-node .views-field-field-image
 {
 	font-size:0;
 	color:transparent;
 	clear:left;
 }
 
-.view-client-node.view-display-id-page .views-field-field-image a
+.view-client-node .views-field-field-image a
 {
 	display:block;
 	float:left;
@@ -735,6 +735,15 @@ h1#page-title:after
 {
 	margin:0.5em 0;
 }
+
+.view-projects.view-display-id-page .views-field-field-image
+{
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+
+
 
 
 
@@ -875,6 +884,16 @@ h1#page-title:after
 		margin:0 auto;
 		clear:left;
 	}
+
+	.node-photo-album
+	{
+		margin-top:0;
+	}
+
+	.view-portfolio.view-display-id-page ul 
+	{
+		margin-left:0;
+	}
 }
 
 
@@ -987,25 +1006,33 @@ h1#page-title:after
 	.sidebar 
 	{
 		margin-left:-17px;
-		margin-right:-5px;
+		margin-right:0;
 	}
 
-	.sidebar .view-portfolio
+	.sidebar .view-portfolio,
+	.node-photo-album
 	{
-		margin-left:10px;
+		margin-left:0;
 	}
 
-	.view-portfolio.view-display-id-page ul 
+	.view-portfolio.view-display-id-page ul,
+	.node-photo-album .field-name-field-image,
+	.view-client-node .views-field-field-image
 	{
 		margin-right:-10px;
 	}
 
-	.view-portfolio.view-display-id-page ul li
+	.view-portfolio.view-display-id-page ul li,
+	.node-photo-album .field-name-field-image img,
+	.view-client-node .views-field-field-image a
 	{
 		margin:0 10px 15px 0;
 	}
 
-	.view-portfolio.view-display-id-page ul li img
+	.view-portfolio.view-display-id-page ul li img,
+	.node-photo-album .field-name-field-image img,
+	.view-projects .view-display-id-page .views-field-field-image img,
+	.view-client-node .views-field-field-image img
 	{
 		width:175px;
 		height:175px;
@@ -1015,22 +1042,44 @@ h1#page-title:after
 
 @media screen and (max-width:570px)
 {
-	.sidebar 
-	{
-		margin-right:-10px;
-	}
-	.view-portfolio.view-display-id-page ul 
+	.view-portfolio.view-display-id-page ul,
+	.node-photo-album .field-name-field-image,
+	.view-client-node .views-field-field-image
 	{
 		margin-right:-5px;
 	}
 
-	.view-portfolio.view-display-id-page ul li
+	.view-portfolio.view-display-id-page ul li,
+	.node-photo-album .field-name-field-image img,
+	.view-client-node .views-field-field-image a
 	{
 		margin-right:5px;
 	}
-	.view-portfolio.view-display-id-page ul li img
+	.view-portfolio.view-display-id-page ul li img,
+	.node-photo-album .field-name-field-image img,
+	.view-projects .view-display-id-page .views-field-field-image img,
+	.view-client-node .views-field-field-image img
 	{
 		width:130px;
 		height:130px;
+	}
+
+	.view-client-node .views-field-field-logo
+	{
+		float:none;
+		margin:0;
+	}
+	.view-client-node .views-field-field-logo img
+	{
+		display:block;
+		margin:0 auto;
+	}
+
+	.page-node-1 #block-system-main img,
+	.page-node-2 #block-system-main img
+	{
+		float:none!important;
+		margin:0 auto!important;
+		display:block;
 	}
 }

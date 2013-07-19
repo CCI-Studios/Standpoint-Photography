@@ -50,7 +50,13 @@
 <head>
   <?php print $head; ?>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
-  <meta name="viewport" content="width=475" />
+  <meta name="viewport" content="width=device-width" id="meta-viewport" />
+  <script>
+  if (screen.width < 500) {
+    var viewport = document.getElementById('meta-viewport');
+    viewport.setAttribute('content','width=475');
+  }
+  </script>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>

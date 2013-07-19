@@ -49,8 +49,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js" dir="<?php print $language->dir; ?>"> <!--<![endif]-->
 <head>
   <?php print $head; ?>
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
-  <meta name="viewport" content="width=475" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">  
+  <meta name="viewport" content="width=device-width" id="meta-viewport" />
+  <script>
+  if (screen.width < 480) {
+    var viewport = document.getElementById('meta-viewport');
+    viewport.setAttribute('content','width=480');
+  }
+  </script>
   <title>Home - <?php print $head_title_array['name']; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>

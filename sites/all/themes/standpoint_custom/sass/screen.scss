@@ -458,9 +458,29 @@ h1#page-title:after
 	overflow:hidden;
 }
 
+.view-song-of-the-week.view-display-id-page .views-row 
+{
+	margin-bottom:2em;
+	clear:both;
+}
+
 .view-song-of-the-week.view-display-id-page .play.youtube
 {
 	height:220px;
+}
+
+.view-song-of-the-week.view-display-id-page .views-field-title
+{
+	font-size:20px;
+	font-weight:bold;
+}
+.view-song-of-the-week.view-display-id-page .views-field-field-artist
+{
+	font-size:20px;
+}
+.view-song-of-the-week.view-display-id-page .views-field-body
+{
+	margin:0.5em 0;
 }
 
 .view-portfolio.view-display-id-page ul
@@ -538,6 +558,12 @@ h1#page-title:after
 	float:left;
 	text-align:center;
 }
+
+#block-system-main .view-wud-ups .views-field-title
+{
+	font-size:20px;
+	font-weight:bold;
+} 
 
 .view-client-node .views-field-field-logo
 {
@@ -662,7 +688,8 @@ h1#page-title:after
 
 .view-wud-ups.view-display-id-page .views-row
 {
-	margin-bottom:3em;
+	margin-bottom:2em;
+	clear:both;
 }
 .view-wud-ups.view-display-id-page .views-field-title
 {
@@ -719,6 +746,7 @@ h1#page-title:after
 .view-projects.view-display-id-page .views-row 
 {
 	margin-bottom:2em;
+	clear:both;
 }
 
 .view-projects.view-display-id-page .views-field-title

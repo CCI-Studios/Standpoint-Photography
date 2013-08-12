@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Standpoint Featured Images feature.
+ */
+
+include_once 'standpoint_featured_images.features.inc';

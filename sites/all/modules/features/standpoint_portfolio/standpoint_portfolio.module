@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Standpoint Portfolio feature.
+ */
+
+include_once 'standpoint_portfolio.features.inc';

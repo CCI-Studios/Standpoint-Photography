@@ -72,7 +72,7 @@
       <div class="footer_bot">
         <?php print render($page['footer_bottom']); ?>
         <div class="copyright">
-        &copy; Standpoint Photography <?php echo date('Y'); ?>
+        &copy; StandPoint Photography <?php echo date('Y'); ?>
         </div>
         <div class="site-by-cci">Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></div>
         

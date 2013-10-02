@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Standpoint Background Images feature.
+ */
+
+include_once 'standpoint_background_images.features.inc';

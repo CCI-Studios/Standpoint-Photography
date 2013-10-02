@@ -57,7 +57,7 @@
     viewport.setAttribute('content','width=480');
   }
   </script>
-  <title>Home - <?php print $head_title_array['name']; ?></title>
+  <title><?php print $head_title_array['name']; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
 </head>

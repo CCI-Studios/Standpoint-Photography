@@ -16,7 +16,7 @@ body
 a,
 a:visited
 {
-	color:#ddd;
+	color:#0496ca;
 	text-decoration:none;
 }
 a:hover
@@ -187,6 +187,7 @@ a:hover
 	background:url(../images/fb.png) no-repeat right center;
 	display:inline-block;
 	text-decoration:none;
+	color:white;
 }
 
 .header
@@ -431,6 +432,10 @@ h1#page-title:after
 	font-size:15px;
 	font-weight:normal;
 }
+.sidebar h2 a 
+{
+	color:white;
+}
 
 .sidebar ul
 {
@@ -502,6 +507,7 @@ h1#page-title:after
 .view-portfolio.view-display-id-page ul li a
 {
 	text-decoration:none;
+	color:white;
 }
 
 .view-portfolio.view-display-id-page ul li img 
@@ -556,6 +562,11 @@ h1#page-title:after
 	width:220px;
 	float:left;
 	text-align:center;
+}
+
+#block-system-main .view-clients ul li a 
+{
+	color:white;
 }
 
 #block-system-main .view-wud-ups .views-field-title
@@ -684,6 +695,10 @@ h1#page-title:after
 {
 	display:block;
 }
+.home-image .views-field-field-image-1 ul 
+{
+	display:none;
+}
 
 .view-wud-ups.view-display-id-page .views-row
 {
@@ -730,7 +745,7 @@ h1#page-title:after
 {
 	font-size:0;
 	color:transparent;
-	clear:left;
+	clear:both;
 }
 
 .view-client-node .views-field-field-image a
@@ -768,6 +783,21 @@ h1#page-title:after
 	float:left;
 	margin:0 10px 10px 0;
 }
+
+#cboxPrevious
+{
+	left:50%;
+	margin-left:-25px;
+}
+#cboxNext
+{
+	left:50%;
+}
+#cboxCurrent
+{
+	left:0;
+}
+
 
 
 

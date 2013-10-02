@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Standpoint Projects feature.
+ */
+
+include_once 'standpoint_projects.features.inc';
